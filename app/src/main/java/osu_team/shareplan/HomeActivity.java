@@ -43,5 +43,12 @@ public class HomeActivity extends ActionBarActivity {
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
+
+    public void onClickButton(View view)
+    {
+        Intent intent = new Intent(this, ScheduleActivity.class);
+        startActivity(intent);
+    }
+
 }
 
