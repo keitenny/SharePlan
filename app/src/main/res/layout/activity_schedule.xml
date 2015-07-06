@@ -4,9 +4,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="osu_team.shareplan.ScheduleActivity">
+    tools:context="osu_team.shareplan.ScheduleActivity"
+    android:id="@+id/ddd">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/list"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

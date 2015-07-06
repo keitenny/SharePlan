@@ -6,4 +6,11 @@
     <string name="title_activity_home">ホーム画面</string>
     <string name="title_activity_maps">マップ</string>
     <string name="title_activity_schedule">スケジュールの作成</string>
+    <string-array name="list">
+        <item>選択なし</item>
+        <item>～中学生</item>
+        <item>高校生</item>
+        <item>大学生</item>
+        <item>社会人～</item>
+    </string-array>
 </resources>
