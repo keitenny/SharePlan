@@ -13,8 +13,65 @@
         android:id="@+id/spinner"
         android:spinnerMode="dropdown"
         android:entries="@array/list"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="年代"
+        android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <Spinner
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:spinnerMode="dropdown"
+        android:entries="@array/ken"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="都道府県"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="目的"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:spinnerMode="dropdown"
+        android:entries="@array/a"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
