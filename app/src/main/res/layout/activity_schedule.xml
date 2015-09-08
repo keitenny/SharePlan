@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="都道府県"
+        android:text="場所"
         android:id="@+id/textView4"
         android:layout_marginLeft="79dp"
         android:layout_marginStart="79dp"
@@ -76,21 +76,14 @@
         android:layout_alignLeft="@+id/textView5"
         android:layout_alignStart="@+id/textView5" />
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="日程"
+        android:id="@+id/textView6"
         android:layout_below="@+id/spinner"
-        android:weightSum="1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="日程"
-            android:id="@+id/textView6" />
-    </LinearLayout>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

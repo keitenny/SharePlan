@@ -10,21 +10,56 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Share Plan"
+        android:text=" Share"
         android:id="@+id/textView"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="67dp"
         android:textSize="65dp"
+        android:textColor="#0040FF"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="START"
+        android:text="はじめる"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
+        android:background="#1a66ff"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:onClick="onClickNextButton"
+        android:layout_below="@+id/textView8"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
-        android:textSize="40dp"
-        android:onClick="onClickNextButton"/>
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plan"
+        android:textSize="65dp"
+        android:textColor="#FF0000"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="さあ、でかけよう"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ようこそ！！"
+        android:id="@+id/textView9"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
